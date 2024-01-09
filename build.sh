@@ -2,6 +2,7 @@
 
 set -uex pipefail
 
+apt-get update
 apt-get install build-essential cmake pkg-config qtbase5-dev qtchooser \
 qt5-qmake qtbase5-dev-tools qttools5-dev qttools5-dev-tools \
 libqt5svg5-dev libboost-dev libssl-dev libprotobuf-dev protobuf-compiler \
