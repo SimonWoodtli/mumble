@@ -1,4 +1,4 @@
-FROM conanio/gcc10 AS builder
+FROM docker.io/library/debian:latest AS builder
 USER root
 
 ADD build.sh /tmp/build.sh
