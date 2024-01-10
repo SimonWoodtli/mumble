@@ -49,6 +49,8 @@ More notes:
 
 * [20240109173457](/20240109173457/) Server Service: Add mumble server
 
+Another solution: Figure out how to compile it as a standalone binary maybe that will help with :)
+
 Related:
 
 * <https://github.com/mumble/mumble/wiki/Installing>
