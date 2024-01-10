@@ -57,7 +57,7 @@ jobs:
           labels: |
             org.opencontainers.image.title=${{ env.IMAGE_NAME }}
             org.opencontainers.image.version=${{ steps.labels.outputs.VERSION }}
-            org.opencontainers.image.description=Borderless ${{ env.IMAGE_NAME }} image
+            org.opencontainers.image.description=murmur mumble-server ${{ env.IMAGE_NAME }} image
             io.artifacthub.package.readme-url=https://raw.githubusercontent.com/SimonWoodtli/mumble/main/README.md
 
       ## Build image using Buildah action
